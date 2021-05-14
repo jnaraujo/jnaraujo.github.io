@@ -1,0 +1,155 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#initial{
+    height: 100%;
+    max-width:100%;
+    background-color: rgb(14, 14, 14);
+}
+
+#menu_modal .modal-body {
+    margin: 0;
+    padding: 0;
+}
+
+#menu_modal .modal-body .nav-item {
+    margin: 0 auto;
+
+}
+
+#menu_modal .modal-body ul {}
+
+#menu_modal .modal-body ul li .nav-link {
+    color: #2a2a44;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#menu_modal .modal-body ul li {
+    padding-bottom: 10px;
+}
+
+#menu_modal .modal-body ul li #cta_nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#menu{
+    padding: 20px;
+    padding-top: 40px;
+}
+#menu #logo{
+    display: inline;
+    width: fit-content;
+}
+#menu #menu_nav{
+    display: inline;
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+}
+
+#menu #links{
+    margin: 0;
+    display: none;
+}
+#initial #links ul{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#initial #links ul li{
+    display: inline;
+    padding: 10px;
+    font-weight: 400;
+}
+#initial a{
+    color: white;
+    transition: color 1s;
+}
+#initial a:hover{
+    color: rgb(221, 221, 221);
+    transition: color 1s;
+}
+#initial #orc_btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2ecc71;
+    color: aliceblue;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+#initial a:hover{
+    text-decoration: none;
+}
+#initial a:visited{
+    text-decoration: none;
+}
+
+#initial #orc_btn:hover{
+    background-color: #27ae60;
+    transition: background 0.5s;
+}
+
+#contact{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    
+}
+#contact a{
+    color: #8e44ad;
+    font-weight: bold;
+}
+#contact #rl{
+    height: 50vh;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    #menu #links{
+        display: inline-block;
+    }
+    #menu #menu_nav{
+        display: none;
+    }
+    #contact{
+        font-size: 30px;
+    }
+    #contact a{
+        font-size: 20px;
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
