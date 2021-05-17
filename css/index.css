@@ -178,6 +178,7 @@ a:hover {
     font-size: 15px;
     font-weight: 600;
     color: #8e44ad;
+
 }
 .portfolio .item .title:hover{
     color: #8e44ad;
@@ -272,7 +273,7 @@ a:hover {
 @media (min-width: 768px) { 
     #initial #left #title{
         font-weight: 900;
-        font-size: 40px;
+        font-size: 80px;
         text-align: left;
     }
     #initial #left #description{
@@ -286,10 +287,6 @@ a:hover {
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-    #initial #left #title{
-        font-weight: 900;
-        font-size: 50px;
-    }
     #menu #links{
         display: inline-block;
     }
