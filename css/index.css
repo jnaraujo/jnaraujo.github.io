@@ -178,7 +178,6 @@ a:hover {
     font-size: 15px;
     font-weight: 600;
     color: #8e44ad;
-
 }
 .portfolio .item .title:hover{
     color: #8e44ad;
@@ -188,6 +187,8 @@ a:hover {
     font-weight: 500;
     text-align: left;
     height: 130px;
+
+    margin-top: 10px;
 }
 .portfolio .item .cover{
     background-position: center center;
@@ -248,7 +249,8 @@ a:hover {
     color: white;
 }
 #aboutme #text h1{
-    font-size: 40px;
+    font-size: 45px;
+    margin-top: 20px;
     font-weight: 700;
     margin-bottom: 20px;
     color: #8e44ad;
@@ -262,6 +264,29 @@ a:hover {
     height: auto;
 }
 
+
+.typewriter #description {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
 
 
 
@@ -302,6 +327,7 @@ a:hover {
     }
     #aboutme #text h1{
         font-size: 50px;
+        margin-top: -10px;
     }
     #aboutme {
         padding: 20px;
@@ -315,9 +341,12 @@ a:hover {
         width: 400px;
         height: auto;
     }
+    #initial #ctda{
+        height: 80%;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
-
- }
+    
+}
