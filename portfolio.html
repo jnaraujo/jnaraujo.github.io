@@ -4,18 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Jônatas Araujo</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Portfolio - Jônatas Araujo</title>
 
-    <meta name="robots" content="noindex" />
-
-    <meta name="title" content="Jônatas Araujo - Webdev, development and design">
-    <meta name="description" content="Olá! Me chamo Jônatas!">
-    <meta name="keywords" content="">
+    <meta name="title" content="Portfolio - Jônatas Araujo">
+    <meta name="description" content="Hey! >My name is Jonatas. I am a web developer and designer.">
+    <meta name="keywords" content="web developer, designer, website, bot, xurumin, backend, frontend">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="Portuguese">
-
+    <meta name="language" content="English">
 
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#514F8C">
@@ -27,9 +24,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
-    <script src="https://kit.fontawesome.com/6fc5325808.js" crossorigin="anonymous"></script>
+    <script async src="https://kit.fontawesome.com/6fc5325808.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -39,30 +37,18 @@
                 <!-- <img width="100px" height="40px"
                     src=""
                     alt=""> -->
-                <span style="font-weight: 700; color: #8e44ad; font-size: 35px;">😃✌️</span>
+                <!-- <span style="font-weight: 700; color: #8e44ad; font-size: 35px;">😃✌️</span> -->
             </div>
             <div class="col-2 col-md-7" id="links">
                 <ul>
-                    <li><a href="#portfolio">Meus projetos</a></li>
-                    <li><a href="#aboutme">Sobre mim</a></li>
-                    <li><a href="/contact" id="orc_btn">Entre com contato</a></li>
+                    <li><a href="/#portfolio">My projects</a></li>
+                    <li><a href="/#aboutme">About me</a></li>
+                    <li><a href="/contact" id="orc_btn">Contact us</a></li>
                 </ul>
             </div>
             <i id="menu_nav" class="fas fa-bars" data-toggle="modal" data-target="#menu_modal"></i>
         </div>
-        <div class="container-fluid" id="contact">
-            <div id="rl" class="row align-items-center">
-                <div class="col-12" id="ct">
-                    Qualquer dúvida, mensagem, etc:<br>
-                    <a href="https://forms.gle/kwC5c23uJmDCPbgn8">Clique para entrar em contato</a>
-                </div>
-            </div>
-        </div>
     </div>
-
-    <script>
-        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdWJbYf1NkUOI3xr-AZnubOTOkHxiFxTi2URQPJQwnUCI1Zsw/viewform"
-    </script>
 
     <!-- MODAL SITE MENU -->
     <div class="modal fade" id="menu_modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -76,18 +62,18 @@
                 <div class="modal-body">
                     <ul class="navbar-nav ml-auto p-2">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/index#portfolio">
-                                Meus projetos
+                            <a class="nav-link" href="/#portfolio">
+                                My projects
                             </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="/index#aboutme">
-                                Sobre mim
+                            <a class="nav-link" href="/#aboutme">
+                                About me
                             </a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="/contact">
-                                Entre com contato
+                                Contact us
                             </a>
                         </li>
                     </ul>
@@ -96,8 +82,34 @@
         </div>
     </div>
     <!-- FIM MODAL SITE MENU -->
-    
-    <div class="container-fluid" style="background-color: white; text-align: center; color: rgb(14, 14, 14); padding: 10px;">
+
+    <div class="container-fluid portfolio" id="portfolio">
+        <div class="row justify-content-center ">
+            <div class="item col-12 col-md-5">
+                <img src="/images/portfolio/1.png" width="100%">
+            </div>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="item col-12 col-md-5">
+                <img src="/images/portfolio/2.png" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="aboutme">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-md-5" id="text">
+                <h1>Who am I?</h1>
+                <p>Helo! My name is Jonatas.<br>I am a front/backend developer who enjoys playing programming. <br>I've done some interesting projects, like <a href="#portfolio">Xurumin</a>, a Discord bot with the main purpose of entertaining its users (used by over 350 guilds and 100k users).</p>
+                <br>
+                <a href="/contact" class="button" id="contact">Get in touch</a>
+            </div>
+            <div class="col-12 col-md-6" id="img">
+                <img src="./images/Programming-bro.png">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: rgb(32, 32, 32);; text-align: center; color: white; padding: 10px;">
         <div class="row justify-content-center">
             <div class="col">
                 All rights reserved © 2021 - Jônatas Araujo
