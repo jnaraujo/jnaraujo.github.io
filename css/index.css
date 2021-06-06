@@ -192,6 +192,7 @@ a:hover {
     font-size: 15px;
     font-weight: 600;
     color: #8e44ad;
+    bottom: 0;
 }
 .portfolio .item .title:hover{
     color: #8e44ad;
@@ -362,5 +363,7 @@ a:hover {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
-    
+    .portfolio .item{
+        max-width: 350px;
+    }
 }
