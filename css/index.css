@@ -28,6 +28,27 @@ a:hover {
 }
 #left{
 }
+
+#initial #ctda ul{
+    margin-top: 30px;
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+#initial #ctda ul li{
+    display: inline;    
+    padding-right: 15px;
+    font-size: 24px;
+}
+
+#initial #ctda ul li a{
+    color: #a550c9;
+}
+#initial #ctda ul li a:hover{
+    color: #773c91;
+}
+
 #initial #left #title{
     font-weight: 900;
     font-size: 40px;
@@ -358,6 +379,9 @@ a:hover {
     }
     #initial #ctda{
         height: 80%;
+    }
+    #initial #ctda ul{
+        margin-top: -10px;
     }
  }
 
