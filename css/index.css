@@ -296,6 +296,7 @@ a:hover {
     font-weight: 400;
 }
 #aboutme #img img{
+    margin-top: 50px;
     width: 100%;
     height: auto;
 }
@@ -366,7 +367,7 @@ a:hover {
         margin-top: -10px;
     }
     #aboutme {
-        padding: 20px;
+        padding: 40px;
         padding-left: 40px;
         padding-right: 40px;
     }
@@ -374,8 +375,9 @@ a:hover {
         text-align: center;
     }
     #aboutme #img img{
-        width: 400px;
+        width: 360px;
         height: auto;
+        margin-top: 0px;
     }
     #initial #ctda{
         height: 80%;
