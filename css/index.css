@@ -52,7 +52,7 @@
 }
 @keyframes handmove{
     form { transform: rotate(00deg); }
-    to{ transform: rotate(30deg);}
+    to{ transform: rotate(-25deg);}
 }
 
 #initial #left #description{
