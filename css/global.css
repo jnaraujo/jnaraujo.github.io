@@ -136,6 +136,14 @@ a:hover {
     height: auto;
 }
 
+.footer{
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
     #menu #links{
