@@ -110,9 +110,17 @@ a:hover {
 #aboutme a {
     color: #8e44ad;
     font-weight: 600;;
+
+    border-bottom: 3px solid #8e44ad;
+    
+    padding-left: 3px;
+    padding-right: 3px;
+    
 }
 #aboutme a:hover {
+    text-decoration: none;
     color: #ba64df;
+    border-bottom: 3px solid #ba64df;
     font-weight: 600;;
 }
 
